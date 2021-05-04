@@ -22,6 +22,7 @@ public class sueldoEmpleados {
         empleados.add(new Empleado("58965874","GABRIEL MAURICIO","NIETO BUSTOS", 22, 1450.5, "Operario",6));
         empleados.add(new Empleado("45874589","JUAN SEBASTIAN","ROMERO ESCOBAR ", 23, 1235.5, "Operario",4));
         empleados.add(new Empleado("73186835","LAURA CATALINA","VARON BUITRAGO", 38, 1235.5, "Administrativo",5));
+        empleados.add(new Empleado("45698745","Sofia ","Lopez Caruajulca", 35, 1235.5, "Operario",6));
 
 
         while (!salir) {
