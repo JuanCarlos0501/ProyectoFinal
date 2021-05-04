@@ -97,8 +97,5 @@ public class Empleado {
         return edad == empleado.edad && Double.compare(empleado.sueldo, sueldo) == 0 && yearsWork == empleado.yearsWork && Objects.equals(dni, empleado.dni) && Objects.equals(firstName, empleado.firstName) && Objects.equals(lastName, empleado.lastName) && Objects.equals(typeEmployee, empleado.typeEmployee);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(dni, firstName, lastName, edad, sueldo, typeEmployee, yearsWork);
-    }
+
 }
